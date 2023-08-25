@@ -14,7 +14,6 @@ local gui = Instance.new("ScreenGui")
 gui.Name = "TestGui"
 gui.Parent = game.Players.LocalPlayer.PlayerGui
 while true do
-    for i, o in pairs(game.Workspace.CurrentRooms:GetChildren()) do
         if o:FindFirstChild("Door") then
             if o.Door:FindFirstChild("Door") then
                 if not o.Door.Door:FindFirstChild("SurfaceGui") then
